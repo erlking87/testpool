@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/chooseActivity"
+    >
+
+        <Button
+            android:text="game1"
+            android:textSize="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/game1"
+            android:layout_weight="1"
+            android:background="@drawable/round_blue"
+            style="@style/ButtonText"
+            />
+
+        <Button
+            android:text="game2"
+            android:textSize="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/game2"
+            android:layout_weight="1"
+            android:background="@drawable/round_blue"
+            style="@style/ButtonText"
+            />
+
+</LinearLayout>
