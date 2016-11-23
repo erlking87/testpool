@@ -8,30 +8,9 @@
     tools:context="com.pool.taiho.testpool.MainActivity"
     android:weightSum="1">
 
-<!--    <ViewFlipper
-        android:id="@+id/vf"
+    <VideoView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="1.14">
-
-        <pl.droidsonroids.gif.GifImageView
-                android:id="@+id/a1"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@drawable/ttt"
-            android:layout_weight="1.14" />
-
-        <pl.droidsonroids.gif.GifImageView
-            android:id="@+id/a2"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/test1"
-            android:layout_weight="1.14" />
-
-    </ViewFlipper>-->
-    <VideoView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/videoView"
         android:layout_weight="1" />
 </LinearLayout>
